@@ -1,0 +1,25 @@
+/* Participant tags use the journal's existing type, spacing and canopy palette. */
+.participant-tags { min-width: 0; margin: var(--space-4) 0 var(--space-5); }
+.log-writing > .participant-tags { margin-top: 0; }
+.participant-heading { display: block; margin-bottom: var(--space-2); color: #435e4d; font-size: 13px; font-weight: 600; }
+.participant-list { display: flex; flex-wrap: wrap; gap: var(--space-2); padding: 0; margin: 0 0 var(--space-3); list-style: none; }
+.participant-tag { display: inline-flex; align-items: center; min-width: 0; max-width: 100%; min-height: 36px; padding-left: var(--space-3); border-radius: 24px; background: #dcebe0; color: var(--accent-deep); }
+.participant-name { min-width: 0; overflow-wrap: anywhere; padding-block: var(--space-2); font-size: 14px; line-height: 20px; }
+.participant-tag:not(:has(button)) { padding-right: var(--space-3); }
+.participant-remove { flex-shrink: 0; color: var(--accent-deep); }
+.participant-remove .icon { width: 16px; height: 16px; }
+.participant-entry { display: flex; align-items: center; gap: var(--space-2); }
+.participant-input { flex: 1; min-width: 0; }
+.participant-add { flex-shrink: 0; background: rgba(77,110,84,.09); color: var(--accent-deep); }
+.participant-empty { margin: 0; color: var(--muted); font-size: 13px; }
+.participant-error { margin: var(--space-2) 0 0; font-size: 13px; color: var(--red); }
+.participant-paths { padding-top: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--line); }
+.participant-paths-heading { margin: 0; font-size: 14px; font-weight: 650; }
+.participant-paths-help, .participant-path-status { margin: var(--space-1) 0 var(--space-3); color: var(--ink); font-size: 13px; line-height: 1.5; }
+.participant-path-list { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.participant-path { min-width: 44px; min-height: 44px; max-width: 100%; padding: var(--space-2) var(--space-3); border: 1px solid var(--line); border-radius: 22px; background: rgba(255,255,255,.56); color: var(--ink); font-size: 14px; line-height: 20px; overflow-wrap: anywhere; text-align: left; }
+.participant-path:hover { background: #dcebe0; }
+.participant-path[aria-pressed="true"] { border-color: transparent; background: var(--accent); color: #fff; }
+.participant-path-status { margin-top: var(--space-3); margin-bottom: 0; color: var(--ink); overflow-wrap: anywhere; }
+.participant-path-rule { display: block; margin-top: var(--space-1); color: var(--ink); }
+#toggle-journal.has-character-path { background: var(--accent); color: #fff; }

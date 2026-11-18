@@ -1,0 +1,36 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Keep personal expedition saves outside application history.
+*.chult.json
+*.mapjourney.json
+*.seerjourney.json
+
+# Server secrets, local shared state, generated output, and deployment identity.
+.env*
+!.env.example
+.data/
+.vercel/
+public/
+dist/
+node_modules/
+attachment-upload.js
+markdown.js
+
+# Local visual checks and transient design-tool state.
+preview*.jpg
+previews/
+.impeccable/hook.cache.json
+.impeccable/live/
+
+# External campaign inputs and local release/design scratch files.
+.campaign-map/
+mods/
+.impeccable/
+release-manifest.json
+*.seerjourney-mod.json
+*.mapjourney-mod.json
+*.zip
+.venv/
+.campaign-map.tmp/

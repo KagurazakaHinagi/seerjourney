@@ -1,0 +1,23 @@
+.supply-fields { margin-top: var(--space-6); padding-top: var(--space-5); border-top: 1px solid var(--line); min-width: 0; }
+.supply-fields h3 { margin: 0 0 var(--space-2); font-size: 17px; line-height: 1.4; }
+.supply-fields h4 { margin: 0; font-size: 14px; font-weight: 650; line-height: 1.5; }
+.supply-section-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin: var(--space-4) 0 var(--space-2); }
+.supply-food-list { display: grid; gap: var(--space-3); }
+.supply-food-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(96px, .45fr) 44px; align-items: end; gap: var(--space-2); }
+.supply-field { min-width: 0; }
+.supply-fields .form-label { margin: var(--space-2) 0; font-size: 13px; }
+.supply-fields input { width: 100%; min-width: 0; font-size: 16px; font-variant-numeric: tabular-nums; }
+.supply-remove { color: var(--danger); flex-shrink: 0; margin-bottom: 2px; }
+.supply-remove:hover { background: rgba(164,52,49,.07); }
+.supply-water-row { margin-top: var(--space-3); }
+.supply-fields .supply-consume-heading { margin: var(--space-5) 0 var(--space-1); }
+.supply-consumption { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-3); }
+.supply-available { font-variant-numeric: tabular-nums; }
+.supply-read { font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+.supply-read p { margin: var(--space-2) 0; }
+.supply-read-foods { margin: var(--space-3) 0; padding-left: var(--space-5); }
+@media (max-width: 400px) {
+  .supply-food-row { grid-template-columns: minmax(0, 1fr) 44px; }
+  .supply-food-name { grid-column: 1 / -1; }
+  .supply-consumption { grid-template-columns: minmax(0, 1fr); gap: var(--space-1); }
+}

@@ -1,0 +1,24 @@
+SeerJourney
+Copyright 2026 SeerJourney contributors
+
+The project-authored source code, documentation, and artwork are distributed
+under the Apache License, Version 2.0. See LICENSE.
+
+The application uses Iconoir v7.12.2 regular icons, copyright (c) 2021 Luca Burgio,
+under the MIT License. Original SVG geometry is retained in assets/iconoir;
+the application assembles that geometry into SVG symbols and applies UI sizing.
+The SeerJourney nautical logo (assets/icons, reproducible with
+tools/generate_icons.py) and tomb marker (assets/iconoir/tomb.svg) are separate
+project-specific artwork, not Iconoir assets.
+
+Browser upload and Markdown bundles incorporate third-party packages and are
+bundled and minified for this application. Their original source files are not
+edited. See THIRD_PARTY_NOTICES.md and licenses/ for names, exact versions,
+attribution, full license texts, and documented upstream notice omissions.
+Third-party components retain their own licenses; the project license does not
+relicense them.
+
+Map mods, map artwork and labels, saved campaign data, user-authored notes, and
+uploaded attachments are independently supplied content. They are not included
+in the project's source-code license. This notice makes no grant of rights in
+that content or in third-party trademarks.

@@ -1,0 +1,64 @@
+/* Adventure references share the journal's calm full-screen reading surface. */
+.adventure-notes .log-body { grid-template-columns: 248px minmax(0, 1fr); }
+.adventure-summary { margin: var(--space-1) 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.adventure-sync-notice { flex-shrink: 0; margin: var(--space-4) 0 0; max-height: 32dvh; overflow-y: auto; }
+.adventure-action-icon { display: inline-flex; align-items: center; justify-content: center; }
+.adventure-list-item strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.adventure-empty-icon { color: var(--accent); margin-bottom: var(--space-5); }
+.adventure-empty-icon .icon { width: 36px; height: 36px; stroke-width: 1.5; }
+.adventure-form { width: 100%; max-width: 900px; margin-inline: auto; padding: 0; }
+.adventure-editor-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-5); }
+.adventure-view-switch { display: flex; align-items: center; gap: var(--space-1); padding: var(--space-1); background: rgba(64,99,73,.09); border-radius: 26px; }
+.adventure-view-button { min-width: 64px; min-height: 44px; padding: var(--space-2) var(--space-4); border: 0; border-radius: 22px; color: var(--ink); background: transparent; font-size: 14px; font-weight: 600; }
+.adventure-view-button:hover { background: rgba(64,99,73,.08); }
+.adventure-view-button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.adventure-write-fields { min-width: 0; }
+.adventure-write-fields > .form-label:first-child { margin-top: 0; }
+#adventure-title, #adventure-body { width: 100%; font-size: 16px; }
+#adventure-body { min-height: min(520px, 52dvh); padding: var(--space-4); line-height: 1.75; resize: vertical; }
+#adventure-error { margin: 0 0 var(--space-4); }
+.adventure-rendered { max-width: 72ch; margin-inline: auto; padding-bottom: var(--space-6); }
+.adventure-document-title { margin: 0 0 var(--space-6); color: var(--ink); font: 600 30px/1.3 var(--serif); letter-spacing: -.5px; overflow-wrap: anywhere; text-wrap: balance; }
+.adventure-markdown { color: var(--ink); font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.adventure-markdown > :first-child { margin-top: 0; }
+.adventure-markdown p, .adventure-markdown ul, .adventure-markdown ol { margin: 0 0 1.15em; }
+.adventure-markdown ul, .adventure-markdown ol { padding-left: 1.7em; }
+.adventure-markdown li > p { margin-bottom: .5em; }
+.adventure-markdown li + li { margin-top: .3em; }
+.adventure-markdown h1, .adventure-markdown h2, .adventure-markdown h3, .adventure-markdown h4, .adventure-markdown h5, .adventure-markdown h6 { margin: 1.6em 0 .6em; font-family: var(--sans); font-weight: 650; line-height: 1.35; letter-spacing: 0; }
+.adventure-markdown h1 { font-size: 26px; }
+.adventure-markdown h2 { font-size: 23px; }
+.adventure-markdown h3 { font-size: 20px; }
+.adventure-markdown h4 { font-size: 18px; }
+.adventure-markdown h5, .adventure-markdown h6 { font-size: 16px; }
+.adventure-markdown a { color: var(--accent-deep); text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: 1px; }
+.adventure-markdown a:hover { text-decoration-thickness: 2px; }
+.adventure-markdown blockquote { margin: 1.2em 0; border-left: 1px solid var(--accent); padding-left: var(--space-5); color: var(--muted); }
+.adventure-markdown blockquote > :last-child { margin-bottom: 0; }
+.adventure-markdown code { padding: .12em .3em; background: rgba(64,99,73,.08); border-radius: 4px; font-size: .9em; }
+.adventure-markdown pre { max-width: 100%; padding: var(--space-4); border-radius: 12px; background: #e2ebe0; overflow-x: auto; font-size: 14px; line-height: 1.6; }
+.adventure-markdown pre code { padding: 0; background: transparent; font-size: inherit; }
+.adventure-markdown table { display: block; width: max-content; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1.3em 0; font-size: 14px; line-height: 1.6; }
+.adventure-markdown th, .adventure-markdown td { border-bottom: 1px solid var(--line); padding: var(--space-2) var(--space-3); text-align: left; }
+.adventure-markdown [align="center"] { text-align: center; }
+.adventure-markdown [align="right"] { text-align: right; }
+.adventure-markdown th { font-weight: 650; background: rgba(64,99,73,.06); }
+.adventure-markdown hr { margin: 1.8em 0; border: 0; border-top: 1px solid var(--line); }
+.adventure-no-content { color: var(--muted); }
+:lang(zh-CN) .adventure-document-title { letter-spacing: 0; }
+@media (max-width: 900px) { .adventure-notes .log-body { grid-template-columns: 200px minmax(0, 1fr); } }
+@media (max-width: 600px), (max-width: 1000px) and (max-height: 500px) {
+  .adventure-notes[data-log-view="detail"] #adventure-back { display: inline-flex; }
+  .adventure-notes[data-log-view="detail"] #adventure-summary, .adventure-notes[data-log-view="detail"] #adventure-add { display: none; }
+  .adventure-notes[data-log-view="detail"] #adventure-heading { font-size: 26px; }
+  .adventure-summary { font-size: 12px; }
+  .adventure-editor-toolbar { gap: var(--space-2); }
+  .adventure-view-button { min-width: 56px; padding-inline: var(--space-3); }
+  .adventure-view-switch { gap: 0; }
+  .adventure-notes .log-edit-actions { margin-left: auto; }
+  #adventure-body { min-height: 300px; padding: var(--space-3); }
+  .adventure-document-title { font-size: 28px; }
+}
+@media (forced-colors: active) {
+  .adventure-view-button[aria-pressed="true"] { outline: 2px solid Highlight; outline-offset: -3px; }
+}

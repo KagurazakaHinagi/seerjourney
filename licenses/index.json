@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "description": "Exact locked npm dependency licenses. Map assets and campaign data are excluded.",
+  "packages": [
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/aix-ppc64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_aix-ppc64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/android-arm",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_android-arm-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/android-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_android-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/android-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_android-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/darwin-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_darwin-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/darwin-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_darwin-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/freebsd-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_freebsd-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/freebsd-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_freebsd-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-arm",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-arm-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-ia32",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-ia32-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-loong64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-loong64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-mips64el",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-mips64el-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-ppc64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-ppc64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-riscv64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-riscv64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-s390x",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-s390x-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/linux-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_linux-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/netbsd-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_netbsd-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/netbsd-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_netbsd-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/openbsd-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_openbsd-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/openbsd-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_openbsd-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/openharmony-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_openharmony-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/sunos-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_sunos-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/win32-arm64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_win32-arm64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/win32-ia32",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_win32-ia32-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "location": "node_modules/@esbuild/win32-x64",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": true,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_esbuild_win32-x64-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ],
+      "note": "Platform binary from the same esbuild release; upstream esbuild MIT license."
+    },
+    {
+      "name": "@exodus/bytes",
+      "version": "1.16.0",
+      "location": "node_modules/@exodus/bytes",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/ExodusOSS/bytes",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_exodus_bytes-1.16.0/LICENSE",
+          "sha256": "dbffd380d59504ba19fcf87ff5a1a33c37edf66d5b09966b0ad5368ab87bc2af"
+        }
+      ]
+    },
+    {
+      "name": "@types/trusted-types",
+      "version": "2.0.7",
+      "location": "node_modules/@types/trusted-types",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": true,
+      "source": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_types_trusted-types-2.0.7/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@vercel/blob",
+      "version": "2.9.0",
+      "location": "node_modules/@vercel/blob",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/vercel/storage",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_vercel_blob-2.9.0/license.md",
+          "sha256": "2b6fc3f4a995e6ad29f4e2ed8881a32979058b8d6557efaa6d86b7e985849f40"
+        }
+      ]
+    },
+    {
+      "name": "@vercel/cli-config",
+      "version": "0.3.1",
+      "location": "node_modules/@vercel/cli-config",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/vercel/vercel",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_vercel_cli-config-0.3.1/LICENSE",
+          "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2"
+        }
+      ]
+    },
+    {
+      "name": "@vercel/cli-exec",
+      "version": "1.0.1",
+      "location": "node_modules/@vercel/cli-exec",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/vercel/vercel",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_vercel_cli-exec-1.0.1/LICENSE",
+          "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2"
+        }
+      ]
+    },
+    {
+      "name": "@vercel/oidc",
+      "version": "3.8.10",
+      "location": "node_modules/@vercel/oidc",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/vercel/vercel",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/_vercel_oidc-3.8.10/LICENSE",
+          "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2"
+        }
+      ]
+    },
+    {
+      "name": "async-retry",
+      "version": "1.3.3",
+      "location": "node_modules/async-retry",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/vercel/async-retry",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/async-retry-1.3.3/LICENSE.md",
+          "sha256": "91887c62d26f64b8d6e98b1dca57e75aca62e6f9af79fb0783f8f1904abaeea6"
+        }
+      ]
+    },
+    {
+      "name": "bcp-47",
+      "version": "2.1.2",
+      "location": "node_modules/bcp-47",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/wooorm/bcp-47",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/bcp-47-2.1.2/license",
+          "sha256": "dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb"
+        }
+      ]
+    },
+    {
+      "name": "bcp-47-match",
+      "version": "2.0.3",
+      "location": "node_modules/bcp-47-match",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/wooorm/bcp-47-match",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/bcp-47-match-2.0.3/license",
+          "sha256": "3deefaee9d13b2f578671d459a89f2fc3dbe3a12cddf88984517a858e4ee6f76"
+        }
+      ]
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "location": "node_modules/cross-spawn",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "git@github.com:moxystudio/node-cross-spawn",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/cross-spawn-7.0.6/LICENSE",
+          "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+        }
+      ]
+    },
+    {
+      "name": "data-urls",
+      "version": "8.0.0",
+      "location": "node_modules/data-urls",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/data-urls",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/data-urls-8.0.0/LICENSE.txt",
+          "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa"
+        }
+      ]
+    },
+    {
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "location": "node_modules/decimal.js",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/MikeMcl/decimal.js",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/decimal.js-10.6.0/LICENCE.md",
+          "sha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c"
+        }
+      ]
+    },
+    {
+      "name": "dompurify",
+      "version": "3.4.18",
+      "location": "node_modules/dompurify",
+      "license": "(MPL-2.0 OR Apache-2.0)",
+      "distributionLicense": "Apache-2.0",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/cure53/DOMPurify",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/dompurify-3.4.18/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "licenses/packages/dompurify-3.4.18/LICENSE-MPL",
+          "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+        }
+      ]
+    },
+    {
+      "name": "entities",
+      "version": "9.0.0",
+      "location": "node_modules/entities",
+      "license": "BSD-2-Clause",
+      "distributionLicense": "BSD-2-Clause",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/fb55/entities",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/entities-9.0.0/LICENSE",
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ]
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "location": "node_modules/esbuild",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/evanw/esbuild",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/esbuild-0.28.2/LICENSE.md",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+        }
+      ]
+    },
+    {
+      "name": "execa",
+      "version": "5.1.1",
+      "location": "node_modules/execa",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/execa",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/execa-5.1.1/license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "name": "get-stream",
+      "version": "6.0.1",
+      "location": "node_modules/get-stream",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/get-stream",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/get-stream-6.0.1/license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "name": "html-encoding-sniffer",
+      "version": "7.0.0",
+      "location": "node_modules/html-encoding-sniffer",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/html-encoding-sniffer",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/html-encoding-sniffer-7.0.0/LICENSE.txt",
+          "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa"
+        }
+      ]
+    },
+    {
+      "name": "human-signals",
+      "version": "2.1.0",
+      "location": "node_modules/human-signals",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/ehmicky/human-signals",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/human-signals-2.1.0/LICENSE",
+          "sha256": "0f2c1c521a08ca2e202316a29c57cba39077ebe2618cf10f23df410f4047f60a"
+        }
+      ]
+    },
+    {
+      "name": "is-alphabetical",
+      "version": "2.0.1",
+      "location": "node_modules/is-alphabetical",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/wooorm/is-alphabetical",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-alphabetical-2.0.1/license",
+          "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+        }
+      ]
+    },
+    {
+      "name": "is-alphanumerical",
+      "version": "2.0.1",
+      "location": "node_modules/is-alphanumerical",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/wooorm/is-alphanumerical",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-alphanumerical-2.0.1/license",
+          "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+        }
+      ]
+    },
+    {
+      "name": "is-buffer",
+      "version": "2.0.5",
+      "location": "node_modules/is-buffer",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/feross/is-buffer",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-buffer-2.0.5/LICENSE",
+          "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac"
+        }
+      ]
+    },
+    {
+      "name": "is-decimal",
+      "version": "2.0.1",
+      "location": "node_modules/is-decimal",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/wooorm/is-decimal",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-decimal-2.0.1/license",
+          "sha256": "ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d"
+        }
+      ]
+    },
+    {
+      "name": "is-node-process",
+      "version": "1.2.0",
+      "location": "node_modules/is-node-process",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/mswjs/is-node-process",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-node-process-1.2.0/license-declaration.txt",
+          "sha256": "31f4932708fc671e137106bbe481d771104612ad65814142c2166e84b3bdd43b"
+        }
+      ],
+      "note": "Publisher declares MIT in package.json; package and upstream repository provide no separate license text or copyright notice. See the retained declaration; no owner has been inferred.",
+      "licenseSource": "https://github.com/mswjs/is-node-process/blob/main/package.json"
+    },
+    {
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "location": "node_modules/is-potential-custom-element-name",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/mathiasbynens/is-potential-custom-element-name",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-potential-custom-element-name-1.0.1/LICENSE-MIT.txt",
+          "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+        }
+      ]
+    },
+    {
+      "name": "is-stream",
+      "version": "2.0.1",
+      "location": "node_modules/is-stream",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/is-stream",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/is-stream-2.0.1/license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "location": "node_modules/isexe",
+      "license": "ISC",
+      "distributionLicense": "ISC",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/isaacs/isexe",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/isexe-2.0.0/LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    },
+    {
+      "name": "jose",
+      "version": "5.10.0",
+      "location": "node_modules/jose",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/panva/jose",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/jose-5.10.0/LICENSE.md",
+          "sha256": "8078b0829d6c3e9ecde2f003e1966e4cad3efc6e7a640efbab0313cc166b1af1"
+        }
+      ]
+    },
+    {
+      "name": "jsdom",
+      "version": "31.0.1",
+      "location": "node_modules/jsdom",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/jsdom",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/jsdom-31.0.1/LICENSE.txt",
+          "sha256": "8fbe420fb1fa891873359074f630997002afce10d9ac59028b8b4ed9976d52d7"
+        }
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "8.12.4",
+      "location": "node_modules/jsdom/node_modules/undici",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/nodejs/undici",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/undici-8.12.4/LICENSE",
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+        }
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "location": "node_modules/lru-cache",
+      "license": "BlueOak-1.0.0",
+      "distributionLicense": "BlueOak-1.0.0",
+      "usage": "development",
+      "optional": false,
+      "source": "ssh://git@github.com/isaacs/node-lru-cache",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/lru-cache-11.5.3/LICENSE.md",
+          "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+        }
+      ]
+    },
+    {
+      "name": "marked",
+      "version": "18.2.1",
+      "location": "node_modules/marked",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/markedjs/marked",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/marked-18.2.1/LICENSE",
+          "sha256": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c"
+        }
+      ]
+    },
+    {
+      "name": "merge-stream",
+      "version": "2.0.0",
+      "location": "node_modules/merge-stream",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/grncdr/merge-stream",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/merge-stream-2.0.0/LICENSE",
+          "sha256": "2cee71bf4612fc2efe1c6261e3f2b21f3c7259ef8a4f3593b095ae7a7bd65ad9"
+        }
+      ]
+    },
+    {
+      "name": "mimic-fn",
+      "version": "2.1.0",
+      "location": "node_modules/mimic-fn",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/mimic-fn",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/mimic-fn-2.1.0/license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ]
+    },
+    {
+      "name": "npm-run-path",
+      "version": "4.0.1",
+      "location": "node_modules/npm-run-path",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/npm-run-path",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/npm-run-path-4.0.1/license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ]
+    },
+    {
+      "name": "onetime",
+      "version": "5.1.2",
+      "location": "node_modules/onetime",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/onetime",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/onetime-5.1.2/license",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+        }
+      ]
+    },
+    {
+      "name": "os-paths",
+      "version": "4.4.0",
+      "location": "node_modules/os-paths",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/rivy/js.os-paths",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/os-paths-4.4.0/LICENSE",
+          "sha256": "284ff307d5455fccaa8c79bdf28768934af711ef28bd7774180e906817c71455"
+        }
+      ]
+    },
+    {
+      "name": "parse5",
+      "version": "8.1.1",
+      "location": "node_modules/parse5",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/inikulin/parse5",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/parse5-8.1.1/LICENSE",
+          "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d"
+        }
+      ]
+    },
+    {
+      "name": "parse5-parser-stream",
+      "version": "8.1.1",
+      "location": "node_modules/parse5-parser-stream",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/inikulin/parse5",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/parse5-parser-stream-8.1.1/LICENSE",
+          "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d"
+        }
+      ]
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "location": "node_modules/path-key",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/path-key",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/path-key-3.1.1/license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ]
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "location": "node_modules/punycode",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/mathiasbynens/punycode.js",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/punycode-2.3.1/LICENSE-MIT.txt",
+          "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+        }
+      ]
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "location": "node_modules/retry",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/tim-kos/node-retry",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/retry-0.13.1/License",
+          "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+        }
+      ]
+    },
+    {
+      "name": "saxes",
+      "version": "6.0.0",
+      "location": "node_modules/saxes",
+      "license": "ISC",
+      "distributionLicense": "ISC",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/lddubeau/saxes",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/saxes-6.0.0/LICENSE",
+          "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e"
+        }
+      ],
+      "note": "npm archive omits LICENSE; retained from the upstream v6.0.0 tag.",
+      "licenseSource": "https://raw.githubusercontent.com/lddubeau/saxes/v6.0.0/LICENSE"
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "location": "node_modules/shebang-command",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/kevva/shebang-command",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/shebang-command-2.0.0/license",
+          "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+        }
+      ]
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "location": "node_modules/shebang-regex",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/shebang-regex",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/shebang-regex-3.0.0/license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ]
+    },
+    {
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "location": "node_modules/signal-exit",
+      "license": "ISC",
+      "distributionLicense": "ISC",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/tapjs/signal-exit",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/signal-exit-3.0.7/LICENSE.txt",
+          "sha256": "e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e"
+        }
+      ]
+    },
+    {
+      "name": "strip-final-newline",
+      "version": "2.0.0",
+      "location": "node_modules/strip-final-newline",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/strip-final-newline",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/strip-final-newline-2.0.0/license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+        }
+      ]
+    },
+    {
+      "name": "throttleit",
+      "version": "2.1.0",
+      "location": "node_modules/throttleit",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "browser and runtime",
+      "optional": false,
+      "source": "https://github.com/sindresorhus/throttleit",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/throttleit-2.1.0/license",
+          "sha256": "68e112c272f0a1988f4014518abaaacdcfa9ced6830d734acfb6a28ff9172e3e"
+        }
+      ]
+    },
+    {
+      "name": "tldts",
+      "version": "7.5.4",
+      "location": "node_modules/tldts",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "ssh://git@github.com/remusao/tldts",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/tldts-7.5.4/LICENSE",
+          "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb"
+        }
+      ]
+    },
+    {
+      "name": "tldts-core",
+      "version": "7.5.4",
+      "location": "node_modules/tldts-core",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "ssh://git@github.com/remusao/tldts",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/tldts-core-7.5.4/LICENSE",
+          "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb"
+        }
+      ]
+    },
+    {
+      "name": "tough-cookie",
+      "version": "6.1.0",
+      "location": "node_modules/tough-cookie",
+      "license": "BSD-3-Clause",
+      "distributionLicense": "BSD-3-Clause",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/salesforce/tough-cookie",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/tough-cookie-6.1.0/LICENSE",
+          "sha256": "22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d"
+        }
+      ]
+    },
+    {
+      "name": "tr46",
+      "version": "7.0.0",
+      "location": "node_modules/tr46",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/tr46",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/tr46-7.0.0/LICENSE.md",
+          "sha256": "499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67"
+        }
+      ]
+    },
+    {
+      "name": "undici",
+      "version": "6.29.1",
+      "location": "node_modules/undici",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/nodejs/undici",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/undici-6.29.1/LICENSE",
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+        }
+      ]
+    },
+    {
+      "name": "w3c-xmlserializer",
+      "version": "6.0.0",
+      "location": "node_modules/w3c-xmlserializer",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/w3c-xmlserializer",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/w3c-xmlserializer-6.0.0/LICENSE.md",
+          "sha256": "ab654de803cdaa9e2819ab2e934bdf7f757e308649ec231d78e80e92425cdc34"
+        }
+      ]
+    },
+    {
+      "name": "webidl-conversions",
+      "version": "8.0.1",
+      "location": "node_modules/webidl-conversions",
+      "license": "BSD-2-Clause",
+      "distributionLicense": "BSD-2-Clause",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/webidl-conversions",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/webidl-conversions-8.0.1/LICENSE.md",
+          "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c"
+        }
+      ]
+    },
+    {
+      "name": "whatwg-mimetype",
+      "version": "5.0.0",
+      "location": "node_modules/whatwg-mimetype",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/whatwg-mimetype",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/whatwg-mimetype-5.0.0/LICENSE.txt",
+          "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa"
+        }
+      ]
+    },
+    {
+      "name": "whatwg-url",
+      "version": "17.3.0",
+      "location": "node_modules/whatwg-url",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/whatwg-url",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/whatwg-url-17.3.0/LICENSE.txt",
+          "sha256": "db480f236292a093e77a83c35431a8496624e1e664a3547768a9ce2bdde39877"
+        }
+      ]
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "location": "node_modules/which",
+      "license": "ISC",
+      "distributionLicense": "ISC",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/isaacs/node-which",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/which-2.0.2/LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+        }
+      ]
+    },
+    {
+      "name": "xdg-app-paths",
+      "version": "5.5.1",
+      "location": "node_modules/xdg-app-paths",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/rivy/js.xdg-app-paths",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/xdg-app-paths-5.5.1/LICENSE",
+          "sha256": "284ff307d5455fccaa8c79bdf28768934af711ef28bd7774180e906817c71455"
+        }
+      ]
+    },
+    {
+      "name": "xdg-portable",
+      "version": "7.3.0",
+      "location": "node_modules/xdg-portable",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/rivy/js.xdg-portable",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/xdg-portable-7.3.0/LICENSE",
+          "sha256": "284ff307d5455fccaa8c79bdf28768934af711ef28bd7774180e906817c71455"
+        }
+      ]
+    },
+    {
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "location": "node_modules/xml-name-validator",
+      "license": "Apache-2.0",
+      "distributionLicense": "Apache-2.0",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/jsdom/xml-name-validator",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/xml-name-validator-5.0.0/LICENSE.txt",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        }
+      ]
+    },
+    {
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "location": "node_modules/xmlchars",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "development",
+      "optional": false,
+      "source": "https://github.com/lddubeau/xmlchars",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/xmlchars-2.2.0/LICENSE",
+          "sha256": "45d196313c2647d313cc65ca9b093d2d6974b64d35ee7346f2c60c9d518dff2c"
+        }
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "4.6.6",
+      "location": "node_modules/zod",
+      "license": "MIT",
+      "distributionLicense": "MIT",
+      "usage": "runtime",
+      "optional": false,
+      "source": "https://github.com/colinhacks/zod",
+      "licenseFiles": [
+        {
+          "path": "licenses/packages/zod-4.6.6/LICENSE",
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+        }
+      ]
+    }
+  ]
+}

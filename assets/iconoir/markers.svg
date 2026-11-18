@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<!-- Five Iconoir v7.12.2 icons, MIT, by Luca Burgio and contributors; tomb is project-authored. See LICENSE and README.md. -->
+<symbol id="place" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+<path d="M20 10C20 14.4183 12 22 12 22C12 22 4 14.4183 4 10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10Z" stroke="currentColor" stroke-width="1.5"/>
+<path d="M12 11C12.5523 11 13 10.5523 13 10C13 9.44772 12.5523 9 12 9C11.4477 9 11 9.44772 11 10C11 10.5523 11.4477 11 12 11Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="camp" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+<path d="M9 14C9 15.6099 10.3771 16 12.0758 16C14.9661 16 15.9206 14.3333 13.9982 11C11.3069 14 10.9224 9.33333 11.3069 8C10.1534 10 9 11.8785 9 14Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 16C15.1559 16 17 13.9024 17 10.3125C17 6.72265 12 3 12 3C12 3 7 6.72265 7 10.3125C7 13.9024 8.84409 16 12 16Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.27258 21.0703L19.7274 16.9292" stroke="currentColor"  stroke-linecap="round"/>
+<path d="M4.27259 16.9292L12 18.9998" stroke="currentColor"  stroke-linecap="round"/>
+<path d="M19.7274 21.0703L15.8637 20.035" stroke="currentColor"  stroke-linecap="round"/>
+</symbol>
+<symbol id="danger" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+<path d="M20.0429 21H3.95705C2.41902 21 1.45658 19.3364 2.22324 18.0031L10.2662 4.01533C11.0352 2.67792 12.9648 2.67791 13.7338 4.01532L21.7768 18.0031C22.5434 19.3364 21.581 21 20.0429 21Z" stroke="currentColor" stroke-linecap="round"/>
+<path d="M12 9V13" stroke="currentColor" stroke-linecap="round"/>
+<path d="M12 17.01L12.01 16.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="ruin" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+<path d="M17 22H7C5.89543 22 5 21.1046 5 20V11.1817C5 11.0632 4.96494 10.9474 4.89923 10.8488L3.10077 8.15115C3.03506 8.05259 3 7.93679 3 7.81833V2.6C3 2.26863 3.26863 2 3.6 2H5.4C5.73137 2 6 2.26863 6 2.6V4.4C6 4.73137 6.26863 5 6.6 5H9.4C9.73137 5 10 4.73137 10 4.4V2.6C10 2.26863 10.2686 2 10.6 2H13.4C13.7314 2 14 2.26863 14 2.6V4.4C14 4.73137 14.2686 5 14.6 5H17.4C17.7314 5 18 4.73137 18 4.4V2.6C18 2.26863 18.2686 2 18.6 2H20.4C20.7314 2 21 2.26863 21 2.6V7.81833C21 7.93679 20.9649 8.05259 20.8992 8.15115L19.1008 10.8488C19.0351 10.9474 19 11.0632 19 11.1817V20C19 21.1046 18.1046 22 17 22Z" stroke="currentColor" stroke-width="1.5"/>
+</symbol>
+<symbol id="treasure" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+<path d="M16 13C13.2386 13 11 11.8807 11 10.5C11 9.11929 13.2386 8 16 8C18.7614 8 21 9.11929 21 10.5C21 11.8807 18.7614 13 16 13Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 14.5C11 15.8807 13.2386 17 16 17C18.7614 17 21 15.8807 21 14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 9.5C3 10.8807 5.23858 12 8 12C9.12583 12 10.1647 11.814 11.0005 11.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 13C3 14.3807 5.23858 15.5 8 15.5C9.12561 15.5 10.1643 15.314 11 15.0002" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 5.5V16.5C3 17.8807 5.23858 19 8 19C9.12563 19 10.1643 18.8139 11 18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 8.5V5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 10.5V18.5C11 19.8807 13.2386 21 16 21C18.7614 21 21 19.8807 21 18.5V10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 8C5.23858 8 3 6.88071 3 5.5C3 4.11929 5.23858 3 8 3C10.7614 3 13 4.11929 13 5.5C13 6.88071 10.7614 8 8 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="tomb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 21V9a6 6 0 0 1 12 0v12M4 21h16M9 10h6M9 14h6"/>
+</symbol>
+</svg>

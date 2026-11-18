@@ -1,0 +1,49 @@
+.stores-scroll { overflow-y: auto; overscroll-behavior: contain; min-height: 0; padding: var(--space-5) var(--space-2) var(--space-6); margin-inline: calc(-1 * var(--space-2)); scroll-padding-block: var(--space-2); scrollbar-width: thin; scrollbar-color: #879d8b transparent; }
+.stores-content { width: 100%; max-width: 1000px; margin-inline: auto; }
+.stores-controls { display: flex; align-items: flex-end; flex-wrap: wrap; gap: var(--space-3); }
+.stores-day-field { width: 120px; }
+.stores-day-field .form-label { margin-top: 0; }
+.stores-subtitle { margin: var(--space-2) 0 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
+.stores-section { padding-block: var(--space-6); border-bottom: 1px solid var(--line); }
+.stores-section h3 { margin: 0 0 var(--space-4); font-size: 18px; line-height: 1.5; }
+.stores-totals { display: flex; flex-wrap: wrap; gap: var(--space-6); margin: 0; }
+.stores-totals > div { flex: 1; min-width: 120px; }
+.stores-totals dt { color: var(--muted); font-size: 14px; }
+.stores-totals dd { margin: var(--space-1) 0 0; font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stores-meta { display: block; color: var(--muted); font-size: 13px; line-height: 1.65; margin: var(--space-1) 0 0; }
+.stores-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }
+.stores-layout { display: grid; grid-template-columns: minmax(0, 3fr) minmax(240px, 2fr); gap: 40px; }
+.stores-list { padding: 0; margin: 0; list-style: none; }
+.stores-batch { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-4); padding-block: var(--space-4); border-bottom: 1px solid var(--line); }
+.stores-batch:first-child { padding-top: 0; }
+.stores-batch > div { min-width: 0; overflow-wrap: anywhere; }
+.stores-batch strong { font-size: 16px; line-height: 1.5; }
+.stores-amount { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.stores-empty { color: var(--muted); font-size: 14px; line-height: 1.75; max-width: 60ch; }
+.stores-expired { margin-top: var(--space-5); }
+.stores-expired summary { position: relative; cursor: pointer; min-height: 44px; padding: var(--space-3) 28px var(--space-3) 0; font-size: 14px; font-weight: 600; list-style: none; }
+.stores-expired summary::-webkit-details-marker { display: none; }
+.stores-expired summary::after { content: ""; position: absolute; top: 50%; right: 0; width: 20px; height: 20px; background-color: currentColor; -webkit-mask: url("assets/iconoir/nav-arrow-right.svg") center / contain no-repeat; mask: url("assets/iconoir/nav-arrow-right.svg") center / contain no-repeat; transform: translateY(-50%); }
+.stores-expired[open] summary::after { transform: translateY(-50%) rotate(90deg); }
+@media (forced-colors: active) {
+  .stores-expired summary::after { background-color: CanvasText; forced-color-adjust: none; }
+}
+.stores-expired .stores-batch strong { color: var(--muted); }
+.stores-history-row { padding-block: var(--space-3); border-bottom: 1px solid var(--line); }
+.stores-history-row:first-child { padding-top: 0; }
+.stores-day-link { min-height: 44px; padding: var(--space-2) var(--space-3); margin-left: calc(-1 * var(--space-3)); border: 0; border-radius: 12px; background: transparent; color: var(--accent-deep); font-size: 15px; font-weight: 600; text-decoration: underline; text-underline-offset: .2em; }
+.stores-day-link:hover { background: rgba(64,99,73,.08); }
+#stores-form { padding: var(--space-5) 0; border-bottom: 1px solid var(--line); }
+#stores-edit-heading { margin: 0; font-size: 20px; }
+#stores-error { margin: var(--space-4) 0 0; }
+#stores-fields { margin-top: var(--space-4); padding-top: 0; border-top: 0; }
+#stores-supplies-heading { display: none; }
+.stores-rules { margin-top: var(--space-5); max-width: 72ch; color: var(--muted); font-size: 13px; line-height: 1.75; }
+@media (max-width: 700px) {
+  .stores-layout { display: block; }
+  .stores-controls { gap: var(--space-2); }
+  .stores-day-field { width: 96px; }
+  .stores-controls .button { padding-inline: var(--space-3); }
+  .stores-batch { gap: var(--space-3); }
+  .stores-totals { gap: var(--space-4); }
+}

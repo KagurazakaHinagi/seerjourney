@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "mapId": "demo-map",
+  "width": 6000,
+  "height": 7800,
+  "sourceWidth": 600,
+  "sourceHeight": 780,
+  "tileSize": 512,
+  "overlap": 1,
+  "format": "jpeg",
+  "quality": 90,
+  "layers": {
+    "background": "background/{id}/{column}-{row}.jpg",
+    "fog": "fog/{id}/{column}-{row}.jpg"
+  },
+  "sourceSha256": {
+    "background": "7f62fe79f6447fea4659e81e9d90db5c6f54fc65359a3e7d9239d9cf95f92747",
+    "fog": "73f72b1d7ff4af8d331cbd7233e698f76813cca9ae56948db60fc3b67a823f9b"
+  },
+  "levels": [
+    {
+      "id": "0",
+      "width": 38,
+      "height": 49,
+      "columns": 1,
+      "rows": 1
+    },
+    {
+      "id": "1",
+      "width": 75,
+      "height": 98,
+      "columns": 1,
+      "rows": 1
+    },
+    {
+      "id": "2",
+      "width": 150,
+      "height": 195,
+      "columns": 1,
+      "rows": 1
+    },
+    {
+      "id": "3",
+      "width": 300,
+      "height": 390,
+      "columns": 1,
+      "rows": 1
+    },
+    {
+      "id": "4",
+      "width": 600,
+      "height": 780,
+      "columns": 2,
+      "rows": 2
+    }
+  ]
+}

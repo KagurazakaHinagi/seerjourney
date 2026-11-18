@@ -1,0 +1,24 @@
+.git
+.env*
+.data
+.vercel
+node_modules
+attachment-upload.js
+markdown.js
+public
+dist
+previews
+preview*.jpg
+.impeccable
+.github
+tools
+skills
+tests
+mods
+*.seerjourney-mod.json
+*.mapjourney-mod.json
+*.zip
+.venv
+release-manifest.json
+# .campaign-map is intentionally uploaded by the CLI, although ignored by Git.
+# It contains only the map deployment allowlist created by map:stage.

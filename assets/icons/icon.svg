@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs><linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#285f5d"/><stop offset="1" stop-color="#103b3e"/></linearGradient></defs>
+  <rect width="256" height="256" rx="55" fill="url(#ocean)"/>
+  <path d="M40 128C62 100 86 85 108 82M148 82C170 85 194 100 216 128M40 128C86 178 170 178 216 128" fill="none" stroke="#f5efdb" stroke-width="12" stroke-linecap="round"/>
+  <polygon points="128,44 140,110 169,124 140,138 128,150 116,138 87,124 116,110" fill="#e7bd6a"/>
+  <path d="M72 196C91 182 109 210 128 196M128 196C147 182 165 182 184 196" fill="none" stroke="#a8cec2" stroke-width="10" stroke-linecap="round"/>
+</svg>
